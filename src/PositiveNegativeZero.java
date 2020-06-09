@@ -5,35 +5,30 @@ public class PositiveNegativeZero
 
     public static void main(String[] args) {//create main method
         System.out.println("Please enter any number");//user input any number
-        Scanner scanner=new Scanner(System.in);// create new object for Scanner class
-        int number=scanner.nextInt();
-        //switch (number>0)
+        Scanner scanner = new Scanner(System.in);// create new object for Scanner class
+        int x = scanner.nextInt();//declare variable
+        int y;
+        if (x > 0)
         {
-          /*  case 1:
-                System.out.println("number is positive");
+            y=1;
+        }
+        else if(x<0){
+            y=2;
+        }
+        else
+            y=3;
+        switch (y)
+        {
+            case 1:
+                System.out.println("This number is positive"+x);
                 break;
-            case 0:
+            case 2:
+                System.out.println("This number is negative"+x);
+                break;
+            default:
+                System.out.println("This number is Zero"+x);
+        }
 
-                switch (number<0)
-                 {
-                    case 1:
-                        System.out.println("number is negative");
-                        break;
-                     case 0:
-                         System.out.println("number is zero");*/
-                 }
-                 // break;
-                }
-                // return;
-    }
-               //System.out.println("number is negative");
-                //break;
-            //case(number==0):
-               // System.out.println("number is zero");
-               // break;
-           // default:
-                //System.out.println("except number is invalid");*/
-
-      //  }
+    } }
 
 

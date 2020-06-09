@@ -1,30 +1,29 @@
 import java.util.Scanner;
 
-public class CityName
-{
+public class CityName {
     public static void main(String[] args)//create main method
     {
         System.out.print("Please enter any first alphabet ");//use enter the input
-        Scanner scanner=new Scanner(System.in);//create object for Scanner class
-        char first=scanner.next().charAt(0);
+        Scanner scanner = new Scanner(System.in);//create object for Scanner class
+        char first = scanner.next().charAt(0);
         switch (first)//apply if else condition
         {
             case 'A':
                 System.out.println("Anand");
                 break;
-            case'B':
+            case 'B':
                 System.out.println("Baroda");
                 break;
-            case'C':
+            case 'C':
                 System.out.println("Chennai");
                 break;
-            case'D':
+            case 'D':
                 System.out.println("Dakor");
                 break;
-            case'E':
+            case 'E':
                 System.out.println("Etah");
                 break;
-            case'F':
+            case 'F':
                 System.out.println("Fatehpur");
                 break;
             default:
